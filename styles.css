@@ -1,0 +1,111 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+.haraz-img{
+    background-image: url("/images/301883823_632561138230757_4424487514454898297_n.jpg");
+    background-size: cover;
+    height: 330px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    background-color: #1D3557;
+    width: 225px;
+    height: 50px;
+    margin: 11px auto;
+    border-radius: 10px;
+    font-size: 34px;
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: inherit;
+}
+
+h2{
+   background-color: #457B9D; 
+   border-radius: 10px;
+   font-size: 18.72px;
+   margin: 0px auto;
+   width: 412px;
+   height: 75px;
+   display: inherit;
+   flex-direction: inherit;
+   justify-content: inherit;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1D3557;
+    background: #F1FAEE;
+    margin: 0%;
+    padding-top: 35px;
+}
+
+p{
+    margin: 0%;
+}
+
+.act-section{
+    background-color: #F1FAEE;
+    padding: 9px;
+    color: #1D3557;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: "Parkinsans", sans-serif;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.guide-section{
+    width: 400px;
+    background-color: #d7f0f3; /* Card background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid #1D3557;
+    display: flex;
+    margin: 50px auto;
+    color: #1D3557;
+}
+
+#avatar{
+    padding: 23px 7px 23px 13px;
+}
+
+footer{
+    background-color: #F1FAEE;
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    padding: 19px;
+    color: #457B9D;
+}
